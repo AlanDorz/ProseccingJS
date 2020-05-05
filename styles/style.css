@@ -1,4 +1,5 @@
 @import url('reset.css');
+@import url('https://fonts.googleapis.com/css?family=Anonymous+Pro:400,400i,700,700i&display=swap&subset=cyrillic');
 
 canvas {
   display: block;
@@ -18,7 +19,7 @@ body {
   background: #3854E8;
   color: #FFFFFF;
 
-  font-family: 'Anonymous Pro';
+  font-family: 'Anonymous Pro', monospace;
   font-style: normal;
   font-weight: normal;
 }
