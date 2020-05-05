@@ -87,8 +87,8 @@ function createDot({
         noStroke();
         circle(x, y, d);
 
-        stroke(255, 50);
-        line(mouseX, mouseY, x, y);
+        // stroke(255, 50);
+        // line(mouseX, mouseY, x, y);
       }
     }
   }
