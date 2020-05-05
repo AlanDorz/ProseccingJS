@@ -3,7 +3,7 @@ let count;
 let cellSize = 60;
 
 function setup() {
-  createCanvas(1800, 720, WEBGL);
+  createCanvas(windowWidth, windowHeight, WEBGL);
 
   let xCellsCount = width / cellSize;
   let yCellsCount = height / cellSize;
@@ -92,3 +92,12 @@ function createDot({
     }
   }
 }
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight, WEBGL);
+}
+
+
+
+
+// 
