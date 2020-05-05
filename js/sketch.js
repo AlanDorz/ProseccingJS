@@ -75,8 +75,6 @@ function createDot({
       if (mouseIsPressed) {
         noFill();
         stroke(255, 50);
-        // stroke(50, 255, 0, 50);
-        // line(mouseX, mouseY, x, y);
         rect(x - paddingX, y - paddingY, cellSize, cellSize);
         push();
         translate(- cellSize / 5, - cellSize / 5)
@@ -88,6 +86,9 @@ function createDot({
         fill(255);
         noStroke();
         circle(x, y, d);
+
+        stroke(255, 50);
+        line(mouseX, mouseY, x, y);
       }
     }
   }
